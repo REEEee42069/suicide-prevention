@@ -1,0 +1,55 @@
+span, h1 {
+	color: #f4f4f4;
+}
+
+h1{
+  font-family: helvetica;
+  font-size: 60px;
+}
+li{
+  font-family: helvetica;
+  line-height: 1.5;
+}
+.h1b {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  }
+.h2b {
+  font-family: helvetica;
+  line-height: 1.2;
+  font-size: 20px;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+}
+
+.li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
