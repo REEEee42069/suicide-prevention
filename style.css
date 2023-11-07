@@ -6,7 +6,7 @@ h1{
   font-family: helvetica;
   font-size: 60px;
 }
-li{
+.li1{
   font-family: helvetica;
   line-height: 1.5;
 }
@@ -20,7 +20,7 @@ li{
   line-height: 1.2;
   font-size: 20px;
   }
-ul {
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ ul {
   float: left;
 }
 
-li a {
+.lia {
   display: block;
   color: white;
   text-align: center;
@@ -45,7 +45,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.lia:hover:not(.active) {
   background-color: #111;
 }
 
